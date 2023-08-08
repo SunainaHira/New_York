@@ -1,6 +1,7 @@
 
 /* Reset some default browser styles */
 body, h1, h2, ul, li {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
@@ -31,6 +32,7 @@ body, h1, h2, ul, li {
     transform: translate(-50%, -50%);
     font-size: 36px;
     color: #fff;
+    z-index: 1;
 }
 
 /* Sidebar Styles */
@@ -101,10 +103,10 @@ body, h1, h2, ul, li {
     background-color:brown;
     color:aliceblue;
 }
-img{
+/* img{
     width:500px;
     height:100px;
-}
+} */
 .header{
 
 
@@ -112,3 +114,54 @@ boxshadow:first-letter;
 color:bisque;
 }
 
+/* Internal Css */
+.topnav a {
+    display: block;
+    float: none;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(44, 87, 204);
+    font-size: 1.5vw;
+    margin: 0.5em;
+    padding: 1.2% 0;
+}
+
+.topnav a:hover {
+    background-color: rgb(165, 42, 165);
+    color: aliceblue;
+}
+
+header {
+    display: inline;
+}
+
+header img {
+    width: 100%;
+    height: 300%;
+}
+
+.content table td {
+    width: 50%;
+}
+
+.content .right-align {
+    text-align: right;
+}
+
+.content img {
+    width: 90%;
+    height: 80%;
+}
+
+.content.w-90 {
+    width: 95%;
+}
+
+.main-content {
+    margin: 2% 2%;
+}
+
+.main-content hr {
+    position: relative;
+    left: -50vw;
+}
